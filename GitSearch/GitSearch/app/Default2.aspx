@@ -28,11 +28,18 @@
     <form id="form1" runat="server">
     <div>
     <div ng-app="git-search" ng-controller="searchPage" >
+        <div class="row topSpace">
+    <div class="col-xs-2"></div>
+    <div class="col-xs-8">
+        <h1>GitSearch</h1>
+    </div>
+    <div class="col-xs-2"></div>
+  </div>
   <div class="row topSpace">
     <div class="col-xs-2"></div>
     <div class="col-xs-8">
         <input id="srcBtn" type="text" runat="server" class="searchBar" placeholder="Search.." />
-      <input type="button" value="Search" class="btn btn-default" ng-keypress="onKeyPress($event)"  ng-click="searchThis()"/>
+      <input type="button" value="Search Repo" class="btn btn-default" ng-keypress="onKeyPress($event)"  ng-click="searchThis()"/>
     </div>
     <div class="col-xs-2"></div>
   </div>
