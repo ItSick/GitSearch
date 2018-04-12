@@ -1,0 +1,38 @@
+/* app css stylesheet */
+
+.searchBar {
+  width:50%;
+  height: 35px;
+  border:1px solid gray;
+  border-radius:25px;
+  padding:5px 5px 5px 10px;
+  outline:none;
+}
+
+.not-valid {
+    color: red;
+}
+
+.galleryItem {
+    border: 1px solid lightgray;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.topSpace {
+    margin-top: 15px;
+}
+
+.galleryItemsErea{
+  /*border: 1px solid gray;*/
+  width:75%;
+  min-height: 50px;
+}
+.av-img {
+    width: 55px;
+    height: 55px;
+}
+.book-button {
+    margin-left:5px;
+}
